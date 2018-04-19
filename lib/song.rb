@@ -33,7 +33,7 @@ class Song
   end
 
   def self.artists
-    @@artists
+    no_dupes = @@artists.uniq
   end
 
 end
