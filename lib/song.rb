@@ -40,4 +40,8 @@ class Song
     no_dupe_genres = @@genres.uniq
   end
 
+  # def self.genre_count
+  #   genre_count_hash = {}
+  #   genre_count_hash[@genre] = @
+  # end
 end
